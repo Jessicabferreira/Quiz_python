@@ -30,3 +30,5 @@ else:
     print('Incorreto')
 
 print(f'Quiz acabou... Pontuação: {pontos}/2')
+
+
