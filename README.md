@@ -1,3 +1,3 @@
-# Quiz_python
+# Quiz Python
 
 Jogo de perguntas sobre Alimentação Saudável!
