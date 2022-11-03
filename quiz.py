@@ -1,5 +1,5 @@
 print(''' 
-    Seja bem vindo ao Quiz da Jessica!
+    Seja bem vindo ao Quiz da Jessica!!
     
     Ai vai algumas perguntas sobre Alimentação Saudável!
 
