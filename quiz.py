@@ -1,59 +1,55 @@
 print(''' 
-    Seja bem vindo ao quiz da Jessica!
+    Seja bem vindo ao Quiz da Jessica!
     
     Ai vai algumas perguntas sobre Alimentação Saudável!
 
 ''')
 print('Vamos começar... \n')
 
-print('1- Entende-se por gordura trans: \n ')
-print('(A) É o tipo de gordura encontrada nos alimentos de origem animal, como manteiga e queijo \n')
-print('(B) É encontrada em alimentos de origem vegetal, como óleos de milho, soja e canola \n')
-print('(C) É um tipo de gordura formada por um processo de hidrogenação natural ou industrial, portanto, está presente '
-'em alimentos industrializados \n')
-print('(D) É considerada a gordura que faz bem à saúde \n')
+print('1- Alimentação saudável é constituída por equilíbrio, variação e moderação. \n ')
+print('(A) V \n')
+print('(B) F \n')
+
 
 pontos = 0
 
 resposta_1 = input('Digite uma das opções: \n').upper()
 
-if resposta_1 == 'C':
+if resposta_1 == 'A':
     print('Correto! \n')
     pontos = pontos + 1
 else:
     print('Incorreto! \n')
 
-print('2- А vіtаmіnа А tеm соmо funçõеѕ fоrtаlесеr а vіѕãо, mаntеr а реlе, оѕ саbеlоѕ е аѕ unhаѕ ѕаudávеіѕ, соntrіbuіr para'
-'а рrеvеnçãо dе dоеnçаѕ е рrоmоvеr о сrеѕсіmеntо óѕѕео. Еlа é еnсоntrаdа еm mаіоr quаntіdаdе еm quаіѕ аlіmеntоѕ? \n')
-print('(A) Fígado, peixes, cenoura, tomate, espinafre \n')
-print('(B) Vegetais folhosos, abacaxi, morango, goiaba \n')
-print('(C) Grãos, cereais integrais, ervilha \n')
-print('(D) Gérmen de trigo, caju, cenoura \n')
+print('2- Uma alimentação adequada é essencial para o bem estar físico e mental do indivíduo. \n')
+print('(A) F \n')
+print('(B) V \n')
+
 
 resposta_2 = input('Digite uma das opções: \n').upper()
 
-if resposta_2 == 'A':
+if resposta_2 == 'B':
     print('Correto! \n')
     pontos = pontos + 1
 else:
     print('Incorreto! \n')
 
-print('3- О соrро рrесіѕа dе quаntіdаdеѕ реquеnаѕ dе gоrdurа, рrіnсіраlmеntе раrа рrоduzіr mеmbrаnаѕ сеlulаrеѕ; quаlquеr'
-'ехсеѕѕо é dеѕnесеѕѕárіо, dеѕѕа mаnеіrа nãо há nесеѕѕіdаdе dе ѕе соnѕumіr gоrdurа numа dіеtа. Еѕtа frаѕе é vеrdаdеіrа'
-'оu fаlѕа? \n')
-print('(A) V \n')
-print('(B) F \n')
+print('3- Quais são os alimentos de origem animal? \n')
+print('(A) Leite, pão e arroz \n')
+print('(B) Ovos, carne e leite \n')
+print('(B) Feijão, manteiga e leite \n')
+print('(B) Banha, carne e farinha \n')
 
 resposta_3 = input('Digite uma das opções: \n').upper()
 
 
-if resposta_3 == 'A':
+if resposta_3 == 'B':
     print('Correto! \n')
     pontos = pontos + 1
 else:
     print('Incorreto! \n')
 
-print('4- Quais os nomes comuns de lactose e frutose?')
+print('4- Quais os nomes comuns de lactose e frutose? \n')
 print('(A) Leite e Frutas \n')
 print('(B) Laticínios e Frutas \n')
 print('(C) Açúcar do Leite e Açúcar das Frutas \n')
@@ -79,28 +75,29 @@ if resposta_5 == 'B':
 else:
     print('Incorreto! \n')
 
-print('6- О аlіmеntо zеrо é аquеlе quе nãо соntém аlgum nutrіеntе еѕресífісо. Роdе ѕеr zеrо еm glútеn, еm lасtоѕе, еm'
-'аçúсаr, еtс. Еѕtеѕ аlіmеntоѕ ѕãо bеnéfісоѕ раrа quеm рrесіѕа ехсluіr um nutrіеntе еѕресífісо dа ѕuа dіеtа, ѕеја роr'
-'рrоblеmаѕ mеtаbólісоѕ, аlеrgіаѕ оu іntоlеrânсіаѕ.Еѕѕа аfіrmаçãо é vеrdаdеіrа оu fаlѕа? \n')
-print('(A) V \n')
-print('(B) F \n')
+print('6- Quais são os órgãos do sistema digestório? \n')
+print('(A) O nariz, a boca e o estômago \n')
+print('(B) O intestino delgado e a traqueia \n')
+print('(C) A boca, o estômago e o intestino delgado \n')
+print('(D) O estômago, o coração e a laringe \n')
 
 resposta_6 = input('Digite uma das opções: \n').upper()
 
-if resposta_6 == 'A':
+if resposta_6 == 'C':
     print('Correto! \n')
     pontos = pontos + 1
 else:
     print('Incorreto! \n')
 
-print('7- Um аlіmеntо é оrgânісо quаndо ѕеuѕ grãоѕ nãо раѕѕаrаm роr nеnhum рrосеѕѕо dе rеfіnаçãо. Роr іѕѕо, еlеѕ соnѕеrvаm'
-'tоdоѕ ѕеuѕ соmроnеntеѕ оrіgіnаіѕ, іnсluіndо саѕсаѕ е реlíсulаѕ рrоtеtоrаѕ. Еѕѕа аfіrmаçãо é vеrdаdеіrа оu fаlѕа? \n')
-print('(A) V \n')
-print('(B) F \n')
+print('7- Como é chamada a transformação dos alimentos dentro do nosso corpo? \n')
+print('(A) Circulação \n')
+print('(B) Nutrição \n')
+print('(C) Mastigação \n')
+print('(D) Digestão \n')
 
 resposta_7 = input('Digite uma das opções: \n').upper()
 
-if resposta_7 == 'B':
+if resposta_7 == 'D':
     print('Correto! \n')
     pontos = pontos + 1
 else:
@@ -121,15 +118,15 @@ if resposta_8 == 'C':
 else:
     print('Incorreto! \n')
 
-print('9- Complete a frase: ___ é utilizado na fabricação de alguns hormônios. \n')
-print('(A) Lipídio \n')
-print('(B) Proteína, porque tem função construtora \n')
-print('(C) Vitamina \n')
-print('(D) Nenhuma das alternativas está correta \n')
+print('9- Quais desses alimentos são de origem vegetal? \n')
+print('(A) Carne \n')
+print('(B) Ovos \n')
+print('(C) Verduras \n')
+print('(D) Chocolate \n')
 
 resposta_9 = input('Digite uma das opções: \n').upper()
 
-if resposta_9 == 'A':
+if resposta_9 == 'C':
     print('Correto! \n')
     pontos = pontos + 1
 else:
